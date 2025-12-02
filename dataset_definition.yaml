@@ -1,0 +1,22 @@
+# joaquim_corrigido.yaml
+
+# Use barras normais (/) e o caminho base.
+path: "C:/Users/manue/Desktop/6º ano/1º Semestre/Inteligência Artificial/FaceRecognitionEN" 
+
+# Caminhos relativos a partir do 'path:' acima.
+train: "data/training"
+val: "data/testing"
+test: "data/testing" # É uma boa prática definir 'test' também
+
+# Número de classes (as 7 pessoas)
+nc: 7
+
+# Nomes das classes (Mapeamento do ID para o Nome)
+names:
+  0: Ribeiro
+  1: Marcelino
+  2: Gollwizer
+  3: Granja
+  4: Correia
+  5: Alves
+  6: Videira
